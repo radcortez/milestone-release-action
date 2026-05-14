@@ -30,7 +30,7 @@ Action itself. Use this if you want to pass in your own Personal Access Token.
 ## Example usage
 
 ```yaml
-- uses: radcortez/milestone-release-action@main
+- uses: smallrye/milestone-release-action@main
   name: milestone release
   with:
     github-token: ${{secrets.GITHUB_TOKEN}}
@@ -41,7 +41,7 @@ Most likely you want for the `milestone-title` to be dynamic. You could retrieve
 your context, by querying something in your project that provides you that information and then pass it as a variable:
 
 ```yaml
-- uses: radcortez/milestone-release-action@main
+- uses: smallrye/milestone-release-action@main
   name: milestone release
   with:
     github-token: ${{secrets.GITHUB_TOKEN}}
